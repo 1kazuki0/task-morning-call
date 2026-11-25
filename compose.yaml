@@ -34,6 +34,9 @@ services: # コンテナの定義開始
       - node_modules:/usr/src/app/node_modules # node_modulesの永続化
     environment: # 環境変数の設定
       TZ: Asia/Tokyo # タイムゾーンを日本に設定
+      DB_HOST: db # 接続先はdbコンテナ
+      DB_USERNAME: postgres # DBのユーザー名
+      DB_PASSWORD: password # DBのパスワード（dbのPOSTGRES_PASSWORDと同じ）
     ports: # ポート設定
       - "3000:3000" # Rails標準のポート
     depends_on: # 依存関係の設定
