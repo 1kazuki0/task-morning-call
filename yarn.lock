@@ -396,6 +396,11 @@
   dependencies:
     tslib "^2.4.0"
 
+daisyui@^5.8.2:
+  version "5.8.2"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-5.8.2.tgz#5bda8fcda0907a9c20d96600cd0a4d1258f59c90"
+  integrity sha512-InScsDXX0pbfgvWyPQ8iTHV4rNMZdfbMo85KqlQUn62/PCIjwczViw5lbotzoXy/nPrn4qjDMmx/fspuUnjBtA==
+
 detect-libc@^2.0.3:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.1.2.tgz#689c5dcdc1900ef5583a4cb9f6d7b473742074ad"
