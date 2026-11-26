@@ -282,4 +282,25 @@ close #番号
 
 ## セットアップ
 
-（No.7 で書く）
+### 必要なもの
+
+- Docker Desktop
+
+### 手順
+
+```bash
+git clone https://github.com/1kazuki0/task-morning-call.git
+cd task-morning-call
+docker compose up --build
+```
+
+起動したら http://localhost:3000 を開く。
+
+### よく使うコマンド
+
+| やること | コマンド |
+|---|---|
+| 起動 | `docker compose up` |
+| 停止 | `docker compose down` |
+| Rails のコマンドを実行 | `docker compose exec web bin/rails <コマンド>` |
+| gem を追加したあと | `docker compose run --rm --no-deps web bundle install` |
