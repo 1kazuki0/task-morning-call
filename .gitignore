@@ -38,3 +38,6 @@
 !/app/assets/builds/.keep
 
 /node_modules
+
+# 個人の設計メモ（GitHub に公開しない）
+/docs/idea.md
